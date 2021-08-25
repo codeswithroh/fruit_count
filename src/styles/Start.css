@@ -1,0 +1,41 @@
+.start-container {
+  min-height: 100vh;
+  background-image: url("../assets/start-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+.start-content {
+  color: white;
+  text-align: center;
+}
+.start-heading {
+  font-size: 5rem;
+}
+.start-sub-heading {
+  font-size: 1.8rem;
+}
+.start-button {
+  background: #ffb2fe;
+  color: #740cf2;
+  box-shadow: 0px 0px 10px 5px #ed1fdf81;
+  border-radius: 20px;
+  padding: 0em 1.5em;
+  margin-top: 4em;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.start-button:hover {
+  background: #740cf2;
+  color: #ffb2fe;
+  box-shadow: 0px 0px 10px 5px #9c069281;
+}
+.start-button > h2 {
+  font-size: 2rem;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,64 @@
+.level-container {
+  min-height: 100vh;
+  background-image: url("../assets/level-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.level-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.level-card {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 0em 6em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.level-card:hover {
+  transform: scale(1.1);
+}
+.level-card > h2 {
+  font-size: 2rem;
+}
+.level-card > h1 {
+  font-size: 4rem;
+}
+.question-background {
+  background-color: rgba(0, 0, 0, 0.677);
+  position: absolute;
+  inset: 0;
+}
+.level-questions {
+  position: absolute;
+  margin: 0 auto;
+  padding: 1em 2em;
+  background: #ffffff;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.level-questions > div > h2 {
+  font-size: 2rem;
+}
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  flex-wrap: wrap;
+}
+.question-card {
+  background: #c4c4c4;
+  color: black;
+  border-radius: 10px;
+  padding: 0.1em 1em;
+}
